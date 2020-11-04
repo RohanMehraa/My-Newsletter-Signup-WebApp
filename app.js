@@ -42,7 +42,8 @@ app.post("/", function (req, res) {
             "Authorization": "<NAME> <API_KEY>" //here one can supply any name then after a space enter the API KEY associated with you MailChimp Account
         },
 
-        body: jsonData
+        body: jsonData                          // here we've used the flatpack json type data to send it to the mailchimp api.
+
 
     };
 
